@@ -1,7 +1,7 @@
 import React from "react";
 
 const Modal = ({ project, onClose }) => {
-  const { name, tagline } = project;
+  const { name, url, tagline } = project;
 
   return (
     <div className="modalBackdrop">
@@ -9,7 +9,7 @@ const Modal = ({ project, onClose }) => {
         <h3 className="modalTitle">{name}</h3>
         {/* <img src="image" /> */}
         <p>{tagline}</p>
-        {/* <a href="url"></a> */}
+        <a href={url}>Visit</a>
         <button type="button" onClick={onClose}>
           Close
         </button>

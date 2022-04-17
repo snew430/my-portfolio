@@ -5,7 +5,7 @@ const PBanner = ({ photo, title }) => {
   return (
     <ParallaxBanner
       layers={[
-        { image: photo, speed: -20 },
+        { image: photo, speed: -40 },
         {
           speed: -15,
           children: (

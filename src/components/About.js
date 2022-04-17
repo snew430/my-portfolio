@@ -27,7 +27,7 @@ const About = () => {
   };
 
   return (
-    <Box sx={{ width: "100%" }} className="section">
+    <Box sx={{ width: "100%" }} className="section" id="about">
       <Tabs
         value={value}
         onChange={handleChange}

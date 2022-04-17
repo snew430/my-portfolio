@@ -31,7 +31,7 @@ function App() {
       tagline: "Tech blog for your favorite tech topics",
     },
     {
-      name: "Shot Til You Drop",
+      name: "Shop Til You Drop",
       url: "https://github.com/snew430/Shop-Til-You-Drop",
       tagline: "Back-End for your e-commerce",
     },

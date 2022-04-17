@@ -38,7 +38,6 @@ a {
 .brick {
   background-size: 100vh 100%;
   background-repeat: no-repeat;
-  z-index: -1;
   font-family: grafitti;
   display: flex;
   flex-direction: column;
@@ -53,4 +52,57 @@ a {
   display: flex;
   align-items: center;
   height: 100%;
+}
+
+.modalBackdrop {
+  background: rgba(0, 0, 0, 0.65);
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.modalContainer {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400;
+  background-color: rgb(42, 42, 42);
+  border: 2px solid #000;
+  box-shadow: 24;
+  padding: 4px;
+}
+
+.modalTitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+button {
+  background: var(--primary);
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+}
+
+.contact-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon {
+  transform: scale(5);
 }

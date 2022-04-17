@@ -6,8 +6,9 @@ const Projects = ({ projects }) => {
   const [currentProject, setCurrentProject] = useState();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const toggleModal = (projectInfo, i) => {
-    setCurrentProject({ ...projectInfo, index: i });
+  const toggleModal = (projectInfo) => {
+    setCurrentProject({ ...projectInfo });
+    console.log(currentProject);
     setIsModalOpen(!isModalOpen);
   };
 
@@ -15,12 +16,13 @@ const Projects = ({ projects }) => {
     <>
       {isModalOpen && <Modal project={currentProject} onClose={toggleModal} />}
       <div
-        className="brick section"
+        className="brick section "
         style={{ backgroundImage: `url(${bricks})` }}
+        id="projects"
       >
-        {projects.map((project, i) => (
-          <div onClick={() => toggleModal(project, i)} key={project.name}>
-            <h1>{project.name}</h1>
+        {projects.map((project) => (
+          <div key={project.name}>
+            <h1 onClick={() => toggleModal(project)}>{project.name}</h1>
           </div>
         ))}
       </div>

@@ -10,9 +10,13 @@ import Container from "@mui/material/Container";
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
-import portrait from '../img/Portrait.jpeg'
+import portrait from "../img/Portrait.jpeg";
 
-const pages = ["About Me", "Projects", "Contact"];
+const pages = [
+  { name: "About Me", ref: "#about" },
+  { name: "Projects", ref: "#projects" },
+  { name: "Contact", ref: "#contact" },
+];
 
 const Nav = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -68,9 +72,9 @@ const Nav = () => {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
+                <MenuItem key={page.name} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">
-                    <a href="/">{page}</a>
+                    <a href={page.ref}>{page.name}</a>
                   </Typography>
                 </MenuItem>
               ))}
@@ -87,17 +91,17 @@ const Nav = () => {
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
               <Button
-                key={page}
+                key={page.name}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: "white", display: "block" }}
               >
-                {page}
+                {page.name}
               </Button>
             ))}
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-              <Avatar alt="Sean's profile pic" src={portrait} />
+            <Avatar alt="Sean's profile pic" src={portrait} />
             <Menu
               sx={{ mt: "45px" }}
               id="menu-appbar"
