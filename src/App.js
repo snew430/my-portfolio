@@ -14,6 +14,29 @@ import Img4 from "./img/Road.jpg";
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
   const [currentCategory, setCurrentCategory] = useState("");
+  const [projects] = useState([
+    {
+      name: "WatchSocial",
+      url: "https://watchsocial.herokuapp.com",
+      tagline: "Where everyone is a critic",
+    },
+    {
+      name: "Any Social Startup",
+      url: "https://github.com/snew430/Any-Social-Startup",
+      tagline: "Back-End template for any Social Media Site",
+    },
+    {
+      name: "DigiBlog",
+      url: "https://powerful-cove-30309.herokuapp.com",
+      tagline: "Tech blog for your favorite tech topics",
+    },
+    {
+      name: "Shot Til You Drop",
+      url: "https://github.com/snew430/Shop-Til-You-Drop",
+      tagline: "Back-End for your e-commerce",
+    },
+  ]);
+
   return (
     <ParallaxProvider>
       <Nav
@@ -23,13 +46,13 @@ function App() {
         setContactSelected={setContactSelected}
       />
       <Header />
-      <PBanner photo={Img1} />
+      <PBanner photo={Img1} title="About" />
       <About />
-      <PBanner photo={Img2} />
-      <Projects />
-      <PBanner photo={Img3} />
+      <PBanner photo={Img2} title="Projects" />
+      <Projects projects={projects} />
+      <PBanner photo={Img3} title="Contact" />
       <Footer />
-      <PBanner photo={Img4} />
+      <PBanner photo={Img4} title="Thank You" />
     </ParallaxProvider>
   );
 }

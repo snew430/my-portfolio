@@ -1,7 +1,7 @@
 import React from "react";
-import { ParallaxBanner, Parallax } from "react-scroll-parallax";
+import { ParallaxBanner } from "react-scroll-parallax";
 
-const PBanner = ({ photo }) => {
+const PBanner = ({ photo, title }) => {
   return (
     <ParallaxBanner
       layers={[
@@ -14,12 +14,11 @@ const PBanner = ({ photo }) => {
             </div>
           ),
         },
-        { image: "/static/banner-foreground.png", speed: -10 },
       ]}
       className="image"
     >
       <div className="outerDiv">
-        <h1 className="innerH1">Hello World!</h1>
+        <h1 className="innerH1">{title}</h1>
       </div>
     </ParallaxBanner>
   );

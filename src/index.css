@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+@font-face {
+  font-family: grafitti;
+  src: url(/DJGROSS.ttf);
+}
 
+a {
+  text-decoration: none;
+}
 .image,
 .section {
   height: 100vh;
@@ -22,8 +29,28 @@
 }
 
 .backdrop {
-    width: 40vh;
-    height: 8vh;
-    background-color: rgba(0, 0, 0, .6);
-    border-radius: 10px;
+  width: 40vh;
+  height: 8vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.brick {
+  background-size: 100vh 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+  font-family: grafitti;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
+
+.about-text {
+  text-align: center;
+  padding: 5px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
