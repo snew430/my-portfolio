@@ -10,6 +10,7 @@ import Container from "@mui/material/Container";
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
+import portrait from '../img/Portrait.jpeg'
 
 const pages = ["About Me", "Projects", "Contact"];
 
@@ -96,7 +97,7 @@ const Nav = () => {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-              <Avatar alt="Sean's profile pic" src="" />
+              <Avatar alt="Sean's profile pic" src={portrait} />
             <Menu
               sx={{ mt: "45px" }}
               id="menu-appbar"

@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import { Parallax } from "react-scroll-parallax";
 
 const Header = () => {
   return (
-    <div>
-        <h2>Sean New</h2>
+    <div className="section">
+      <h1>Sean</h1>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
