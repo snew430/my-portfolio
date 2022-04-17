@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
 @font-face {
   font-family: grafitti;
-  src: url(/DJGROSS.ttf);
+  src: url(/src/font/grafitti.ttf);
 }
 
 a {
