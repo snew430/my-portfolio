@@ -7,7 +7,7 @@ const About = () => {
     {
       title: "Where I'm From",
       description:
-        "I grew up outside of Baltimore, Maryland and have been working my entire life.  When I was in High School, I became very interested in computers.  I taught myself how to build computers from scratch and had a summer job as a computer tech at our local community college.  I enrolled in AP Computer Science and learned languages like C++ and JavaScript at a very young age. I attended West Virginia University where I received my Bachelor's Degree in Sport and Exercise Psychology.  After graduating, it was time to start a career.  I applied for a job in retail management, worked hard and never gave up.  My employer relocated me to North Carolina, and that is where my life took a serious change of direction...",
+        "I grew up outside of Baltimore, Maryland.  When I was in High School, I became very interested in computers.  I taught myself how to build computers from scratch and had a summer job as a computer tech at our local community college.  I enrolled in AP Computer Science and learned languages like C++ and JavaScript at a very young age. I attended West Virginia University where I received my Bachelor's Degree in Sport and Exercise Psychology.  After graduating, it was time to start a career.  I applied for a job in retail management, worked hard and never gave up.  My employer relocated me to North Carolina, and that is where my life took a serious change of direction...",
     },
     {
       title: "Where I've Been",

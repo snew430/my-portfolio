@@ -6,9 +6,9 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import { ParallaxProvider } from "react-scroll-parallax";
 import PBanner from "./components/PBanner";
-import Img1 from "./img/Vinyl.jpg";
+import Img1 from "./img/Coffee.jpg";
 import Img2 from "./img/About.jpg";
-import Img3 from "./img/Tape.jpg";
+import Img3 from "./img/Envelope.jpg";
 import Img4 from "./img/Road.jpg";
 
 function App() {
