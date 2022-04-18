@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.30020c74.css",
-    "main.js": "/static/js/main.e95c3301.js",
-    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/About.jpg": "/static/media/About.8df701d275ae5e8cb71b.jpg",
-    "static/media/Road.jpg": "/static/media/Road.21bb2e565286e2b53951.jpg",
-    "static/media/Bricks.jpg": "/static/media/Bricks.e8fc80d0a6d761cf02c2.jpg",
-    "static/media/Envelope.jpg": "/static/media/Envelope.014ea83a0366611a7808.jpg",
-    "static/media/grafitti.ttf": "/static/media/grafitti.2e6bccb66c2303763d86.ttf",
-    "static/media/Portrait.jpeg": "/static/media/Portrait.6d5a52ece3299f6860bb.jpeg",
-    "static/media/Coffee.jpg": "/static/media/Coffee.c658685ec3d8e2b80ac9.jpg",
-    "static/media/SeanNewResume.pdf": "/static/media/SeanNewResume.627f0d4fe3a9e0ff7756.pdf",
-    "static/media/Walking.jpg": "/static/media/Walking.8e6fdc29a4592d66167d.jpg",
-    "index.html": "/index.html",
-    "main.30020c74.css.map": "/static/css/main.30020c74.css.map",
-    "main.e95c3301.js.map": "/static/js/main.e95c3301.js.map",
-    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/my-portfolio/static/css/main.f1f68614.css",
+    "main.js": "/my-portfolio/static/js/main.02a0273e.js",
+    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/About.jpg": "/my-portfolio/static/media/About.8df701d275ae5e8cb71b.jpg",
+    "static/media/Road.jpg": "/my-portfolio/static/media/Road.21bb2e565286e2b53951.jpg",
+    "static/media/Bricks.jpg": "/my-portfolio/static/media/Bricks.e8fc80d0a6d761cf02c2.jpg",
+    "static/media/Envelope.jpg": "/my-portfolio/static/media/Envelope.014ea83a0366611a7808.jpg",
+    "static/media/grafitti.ttf": "/my-portfolio/static/media/grafitti.2e6bccb66c2303763d86.ttf",
+    "static/media/Portrait.jpeg": "/my-portfolio/static/media/Portrait.6d5a52ece3299f6860bb.jpeg",
+    "static/media/Coffee.jpg": "/my-portfolio/static/media/Coffee.c658685ec3d8e2b80ac9.jpg",
+    "static/media/SeanNewResume.pdf": "/my-portfolio/static/media/SeanNewResume.627f0d4fe3a9e0ff7756.pdf",
+    "static/media/Walking.jpg": "/my-portfolio/static/media/Walking.8e6fdc29a4592d66167d.jpg",
+    "index.html": "/my-portfolio/index.html",
+    "main.f1f68614.css.map": "/my-portfolio/static/css/main.f1f68614.css.map",
+    "main.02a0273e.js.map": "/my-portfolio/static/js/main.02a0273e.js.map",
+    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30020c74.css",
-    "static/js/main.e95c3301.js"
+    "static/css/main.f1f68614.css",
+    "static/js/main.02a0273e.js"
   ]
 }
