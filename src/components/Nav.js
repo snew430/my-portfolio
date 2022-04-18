@@ -12,11 +12,13 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import portrait from "../img/Portrait.jpeg";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
+import resume from "../img/SeanNewResume.pdf";
 
 const pages = [
   { name: "About Me", ref: "#about" },
   { name: "Projects", ref: "#projects" },
   { name: "Contact", ref: "#contact" },
+  { name: "Resume", ref: resume },
 ];
 
 const Nav = () => {
