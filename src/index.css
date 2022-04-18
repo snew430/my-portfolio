@@ -144,6 +144,7 @@ hr {
   width: 70%;
 }
 
+
 @media screen and (min-width: 675px) {
   .brick {
     align-items: center;
