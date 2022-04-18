@@ -36,6 +36,10 @@ image {
   font-weight: 50;
 }
 
+.project {
+  cursor: pointer;
+}
+
 .backdrop {
   width: 40vh;
   height: 8vh;
@@ -140,7 +144,7 @@ hr {
   width: 70%;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 675px) {
   .brick {
     align-items: center;
   }

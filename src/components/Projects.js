@@ -21,7 +21,7 @@ const Projects = ({ projects }) => {
         id="projects"
       >
         {projects.map((project) => (
-          <div key={project.name}>
+          <div key={project.name} className="project">
             <h1 onClick={() => toggleModal(project)}>{project.name}</h1>
           </div>
         ))}
