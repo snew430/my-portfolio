@@ -4,6 +4,10 @@
   src: url(/src/font/grafitti.ttf);
 }
 
+body {
+  font-family: "Lato", sans-serif;
+}
+
 a {
   text-decoration: none;
   color: #fff;
@@ -27,7 +31,6 @@ image {
 }
 
 .innerH1 {
-  font-family: "Lato", sans-serif;
   font-size: 50px;
   color: rgb(255, 255, 255);
   font-weight: 50;
@@ -68,7 +71,8 @@ image {
   padding: 5px;
   font-size: 1.2rem;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   height: 100%;
   font-family: "Lato";
 }
@@ -90,17 +94,20 @@ image {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 400;
+  width: 70vw;
+  height: 70vh;
   background-color: rgb(42, 42, 42);
   border: 2px solid #000;
   box-shadow: 24;
   padding: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
 }
 
 .modalTitle {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 25px;
+  font-size: 2rem;
 }
 
 button {
@@ -125,4 +132,23 @@ button {
 .icon {
   transform: scale(5);
   color: rgb(43, 89, 113);
+}
+
+hr {
+  color: #000;
+  background-color: #000;
+  width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  .brick {
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .about-text {
+    font-size: 1.7rem;
+    padding: 20px;
+  }
 }

@@ -38,7 +38,9 @@ const About = () => {
         <Tab value="Where I'm Going" label="Where I'm Going" wrapped />
       </Tabs>
       <div className="about-text">
+        <hr/>
         <h4>{currentAbout[0].description}</h4>
+        <hr />
       </div>
     </Box>
   );
