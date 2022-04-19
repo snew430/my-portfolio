@@ -9,7 +9,6 @@ const Projects = ({ projects }) => {
 
   const toggleModal = (projectInfo) => {
     setCurrentProject({ ...projectInfo });
-    console.log(currentProject);
     setIsModalOpen(!isModalOpen);
   };
 

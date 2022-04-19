@@ -8,7 +8,7 @@ const Modal = ({ project, onClose }) => {
       <div className="modalContainer">
         <h3 className="modalTitle">{name}</h3>
         <p>{tagline}</p>
-        <a href="">
+        <a href={url}>
           <img src={pic} alt="" />
         </a>
         <a href={url}>Visit</a>
