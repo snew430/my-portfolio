@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import bricks from "../img/Bricks.jpg";
 import Modal from "./Modal";
+import Project from "./Project";
 
 const Projects = ({ projects }) => {
   const [currentProject, setCurrentProject] = useState();
@@ -21,9 +22,7 @@ const Projects = ({ projects }) => {
         id="projects"
       >
         {projects.map((project) => (
-          <div key={project.name} className="project">
-            <h1 onClick={() => toggleModal(project)}>{project.name}</h1>
-          </div>
+          <Project project={project} onClick={() => toggleModal(project)} />
         ))}
       </div>
     </>

@@ -1,26 +1,22 @@
 import React from "react";
-import { ParallaxBanner } from "react-scroll-parallax";
+import { ParallaxBanner, Parallax } from "react-scroll-parallax";
 
 const PBanner = ({ photo, title }) => {
   return (
     <ParallaxBanner
       layers={[
-        { image: photo, speed: -40 },
+        { image: photo, speed: 40 },
         {
           speed: -15,
           children: (
-            <div className="outerDiv">
-              <div className="innerH1 backdrop"></div>
-            </div>
+            <Parallax rotateX={[0, 720, "easeOutCirc"]} className="outerDiv">
+              <h1 className="innerH1 backdrop">{title}</h1>
+            </Parallax>
           ),
         },
       ]}
       className="image"
-    >
-      <div className="outerDiv">
-        <h1 className="innerH1">{title}</h1>
-      </div>
-    </ParallaxBanner>
+    ></ParallaxBanner>
   );
 };
 

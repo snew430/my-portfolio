@@ -10,6 +10,8 @@ import Img1 from "./img/Coffee.jpg";
 import Img2 from "./img/About.jpg";
 import Img3 from "./img/Envelope.jpg";
 import Img4 from "./img/Road.jpg";
+import watch from "./img/WatchSocial.png";
+import digiblog from "./img/DigiBlog.png";
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
@@ -19,6 +21,7 @@ function App() {
       name: "WatchSocial",
       url: "https://watchsocial.herokuapp.com",
       tagline: "Where everyone is a critic",
+      pic: watch,
     },
     {
       name: "Any Social Startup",
@@ -29,6 +32,7 @@ function App() {
       name: "DigiBlog",
       url: "https://powerful-cove-30309.herokuapp.com",
       tagline: "Tech blog for your favorite tech topics",
+      pic: digiblog,
     },
     {
       name: "Shop Til You Drop",

@@ -10,8 +10,7 @@ body {
 
 a {
   text-decoration: none;
-  /* color: #fff; */
-  color: #000;
+  color: #fff;
 }
 .image,
 .section {
@@ -34,7 +33,7 @@ image {
 .innerH1 {
   font-size: 50px;
   color: rgb(255, 255, 255);
-  font-weight: 50;
+  font-weight: 500;
 }
 
 .project {
@@ -44,8 +43,9 @@ image {
 .backdrop {
   width: 40vh;
   height: 8vh;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   border-radius: 10px;
+  text-align: center;
 }
 
 .head {
@@ -115,6 +115,10 @@ image {
   font-size: 2rem;
 }
 
+a img {
+  width: 90%;
+}
+
 button {
   background: var(--primary);
   border: 0;
@@ -129,7 +133,7 @@ button {
 
 .contact-footer {
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
 }
@@ -155,5 +159,8 @@ hr {
   .about-text {
     font-size: 1.7rem;
     padding: 20px;
+  }
+  .contact-footer {
+    flex-direction: row;
   }
 }
