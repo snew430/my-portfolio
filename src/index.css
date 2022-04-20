@@ -18,10 +18,6 @@ a {
   position: relative;
 }
 
-image {
-  z-index: 999;
-}
-
 .outerDiv {
   position: absolute;
   inset: 0;
@@ -49,7 +45,7 @@ image {
 }
 
 .head {
-  background-size: 100vh 100%;
+  background-size: 100vh;
   background-repeat: no-repeat;
   background-position: center;
   font-family: "Lato";
@@ -61,7 +57,7 @@ image {
 }
 
 .brick {
-  background-size: 100vh 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   font-family: grafitti;
@@ -152,6 +148,10 @@ hr {
 @media screen and (min-width: 675px) {
   .brick {
     align-items: center;
+  }
+  .head {
+    background-size: cover;
+    background-position: bottom 30% right;
   }
 }
 
