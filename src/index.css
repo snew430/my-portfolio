@@ -34,6 +34,11 @@ a {
 
 .project {
   cursor: pointer;
+  transition: ease-in-out;
+}
+
+.project:hover {
+  color: rgb(122, 86, 86);
 }
 
 .backdrop {
@@ -79,7 +84,7 @@ a {
 }
 
 .modalBackdrop {
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.85);
   bottom: 0;
   left: 0;
   overflow: auto;
@@ -97,8 +102,6 @@ a {
   transform: translate(-50%, -50%);
   width: 70vw;
   height: 70vh;
-  background-color: rgb(42, 42, 42);
-  border: 2px solid #000;
   box-shadow: 24;
   padding: 4px;
   display: flex;
@@ -111,8 +114,14 @@ a {
   font-size: 2rem;
 }
 
-a img {
-  width: 90%;
+.modalImage {
+  height: 30vh;
+  width: auto;
+}
+
+.modalVisits {
+  display: flex;
+  justify-content: space-around;
 }
 
 button {
@@ -136,7 +145,13 @@ button {
 
 .icon {
   transform: scale(5);
-  color: rgb(43, 89, 113);
+  color: rgba(43, 89, 113, 0.7);
+}
+
+.icon:hover {
+  transition: 1s linear;
+  color: rgba(43, 89, 113, 1);
+  transform: scale(6.5);
 }
 
 hr {
