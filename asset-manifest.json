@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.937611e1.css",
-    "main.js": "/my-portfolio/static/js/main.d3c580cb.js",
-    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/About.jpg": "/my-portfolio/static/media/About.8df701d275ae5e8cb71b.jpg",
-    "static/media/Road.jpg": "/my-portfolio/static/media/Road.21bb2e565286e2b53951.jpg",
-    "static/media/Bricks.jpg": "/my-portfolio/static/media/Bricks.e8fc80d0a6d761cf02c2.jpg",
-    "static/media/Envelope.jpg": "/my-portfolio/static/media/Envelope.014ea83a0366611a7808.jpg",
-    "static/media/WatchSocial.png": "/my-portfolio/static/media/WatchSocial.031bf33dc9d59fbb44cc.png",
-    "static/media/grafitti.ttf": "/my-portfolio/static/media/grafitti.2e6bccb66c2303763d86.ttf",
-    "static/media/Portrait.jpeg": "/my-portfolio/static/media/Portrait.6d5a52ece3299f6860bb.jpeg",
-    "static/media/Coffee.jpg": "/my-portfolio/static/media/Coffee.c658685ec3d8e2b80ac9.jpg",
-    "static/media/SeanNewResume.pdf": "/my-portfolio/static/media/SeanNewResume.627f0d4fe3a9e0ff7756.pdf",
-    "static/media/Walking.jpg": "/my-portfolio/static/media/Walking.8e6fdc29a4592d66167d.jpg",
-    "static/media/DigiBlog.png": "/my-portfolio/static/media/DigiBlog.17866ec215d0588814bb.png",
-    "index.html": "/my-portfolio/index.html",
-    "main.937611e1.css.map": "/my-portfolio/static/css/main.937611e1.css.map",
-    "main.d3c580cb.js.map": "/my-portfolio/static/js/main.d3c580cb.js.map",
-    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/static/css/main.5f152316.css",
+    "main.js": "/static/js/main.7d3b4136.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/About.jpg": "/static/media/About.8df701d275ae5e8cb71b.jpg",
+    "static/media/Road.jpg": "/static/media/Road.21bb2e565286e2b53951.jpg",
+    "static/media/Bricks.jpg": "/static/media/Bricks.e8fc80d0a6d761cf02c2.jpg",
+    "static/media/Envelope.jpg": "/static/media/Envelope.014ea83a0366611a7808.jpg",
+    "static/media/WatchSocial.png": "/static/media/WatchSocial.031bf33dc9d59fbb44cc.png",
+    "static/media/grafitti.ttf": "/static/media/grafitti.2e6bccb66c2303763d86.ttf",
+    "static/media/Portrait.jpeg": "/static/media/Portrait.6d5a52ece3299f6860bb.jpeg",
+    "static/media/Coffee.jpg": "/static/media/Coffee.c658685ec3d8e2b80ac9.jpg",
+    "static/media/SeanNewResume.pdf": "/static/media/SeanNewResume.627f0d4fe3a9e0ff7756.pdf",
+    "static/media/Walking.jpg": "/static/media/Walking.8e6fdc29a4592d66167d.jpg",
+    "static/media/DigiBlog.png": "/static/media/DigiBlog.17866ec215d0588814bb.png",
+    "index.html": "/index.html",
+    "main.5f152316.css.map": "/static/css/main.5f152316.css.map",
+    "main.7d3b4136.js.map": "/static/js/main.7d3b4136.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.937611e1.css",
-    "static/js/main.d3c580cb.js"
+    "static/css/main.5f152316.css",
+    "static/js/main.7d3b4136.js"
   ]
 }
