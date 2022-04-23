@@ -124,6 +124,16 @@ a {
   justify-content: space-around;
 }
 
+.close {
+  position: absolute;
+  top: 10%;
+  right: 15%;
+}
+
+.close:hover {
+  cursor: pointer;
+}
+
 button {
   background: var(--primary);
   border: 0;

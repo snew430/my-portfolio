@@ -1,4 +1,5 @@
 import React from "react";
+import CloseIcon from "@mui/icons-material/Close";
 
 const Modal = ({ project, onClose }) => {
   const { name, deploy, repo, tagline, pic } = project;
@@ -7,6 +8,7 @@ const Modal = ({ project, onClose }) => {
     <div className="modalBackdrop">
       <div className="modalContainer">
         <hr />
+        <CloseIcon onClick={onClose} className="close" />
         <h3 className="modalTitle">{name}</h3>
         <p>{tagline}</p>
         {pic ? (
@@ -29,9 +31,6 @@ const Modal = ({ project, onClose }) => {
             Visit Github Repo
           </a>
         </div>
-        <button type="button" onClick={onClose}>
-          Close
-        </button>
         <hr />
       </div>
     </div>
