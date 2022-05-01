@@ -9,6 +9,13 @@ import resume from "../img/SeanNewResume.pdf";
 const Footer = () => {
   return (
     <div className="section contact-footer" id="contact">
+      {/* <form action="">
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="email" />
+          <textarea type="text" placeholder="message" />
+          <button>Submit</button>
+        </form> */}
+      {/* <div className="contact-footer"> */}
       <a href="https://github.com/snew430">
         <GitHubIcon className="icon" />
       </a>
@@ -24,6 +31,7 @@ const Footer = () => {
       <a href={resume} target="_blank" rel="noopener noreferrer">
         <InsertDriveFileIcon className="icon" />
       </a>
+      {/* </div> */}
     </div>
   );
 };

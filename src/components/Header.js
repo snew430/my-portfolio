@@ -9,7 +9,7 @@ const Header = () => {
     >
       <h1>Hello and Welcome</h1>
       <h2>I am Sean New</h2>
-      <h4>Full Stack Web Developer pushing the limits of technology</h4>
+      <h4>Software Engineer pushing the limits of technology</h4>
     </div>
   );
 };
