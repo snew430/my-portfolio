@@ -53,7 +53,7 @@ a {
 .head {
   background-size: 100vh;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom 30% right 50%;
   font-family: "Lato";
   display: flex;
   flex-direction: column;
