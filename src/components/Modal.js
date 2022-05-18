@@ -2,7 +2,7 @@ import React from "react";
 import CloseIcon from "@mui/icons-material/Close";
 
 const Modal = ({ project, onClose }) => {
-  const { name, deploy, repo, tagline, pic } = project;
+  const { name, deploy, repo, tagline, pic, technologies } = project;
 
   return (
     <div className="modalBackdrop">
@@ -19,6 +19,9 @@ const Modal = ({ project, onClose }) => {
           <></>
         )}
 
+        <div>Technologies Used:</div>
+        <div>{technologies}</div>
+        <hr />
         <div className="modalVisits">
           {deploy ? (
             <a href={deploy} target="_blank" rel="noreferrer">
