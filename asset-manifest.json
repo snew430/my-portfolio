@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.7614726f.css",
-    "main.js": "/static/js/main.b3e62c6b.js",
+    "main.js": "/static/js/main.3b530762.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/About.jpg": "/static/media/About.8df701d275ae5e8cb71b.jpg",
     "static/media/Road.jpg": "/static/media/Road.21bb2e565286e2b53951.jpg",
     "static/media/shopshop.png": "/static/media/shopshop.699e1dac193f28adb3e1.png",
     "static/media/Bricks.jpg": "/static/media/Bricks.e8fc80d0a6d761cf02c2.jpg",
+    "static/media/golfbuddy.png": "/static/media/golfbuddy.01f895b4203b82b0f7d6.png",
     "static/media/Envelope.jpg": "/static/media/Envelope.014ea83a0366611a7808.jpg",
     "static/media/deweydecimal.png": "/static/media/deweydecimal.5c0b872eb3482e67ddfe.png",
     "static/media/WatchSocial.png": "/static/media/WatchSocial.031bf33dc9d59fbb44cc.png",
@@ -18,11 +19,11 @@
     "static/media/SeanNewResume.pdf": "/static/media/SeanNewResume.4901afb34b211e109b9a.pdf",
     "index.html": "/index.html",
     "main.7614726f.css.map": "/static/css/main.7614726f.css.map",
-    "main.b3e62c6b.js.map": "/static/js/main.b3e62c6b.js.map",
+    "main.3b530762.js.map": "/static/js/main.3b530762.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7614726f.css",
-    "static/js/main.b3e62c6b.js"
+    "static/js/main.3b530762.js"
   ]
 }
