@@ -14,11 +14,21 @@ import watch from "./img/WatchSocial.png";
 import digiblog from "./img/DigiBlog.png";
 import shopshop from "./img/shopshop.png";
 import deweydecimal from "./img/deweydecimal.png";
+import golfbuddy from "./img/golfbuddy.png";
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
   const [currentCategory, setCurrentCategory] = useState("");
   const [projects] = useState([
+    {
+      name: "whatsmyteetime",
+      deploy: "https://whatsmyteetime.herokuapp.com/",
+      repo: "https://github.com/snew430/golfbuddy",
+      technologies:
+        "MongoDB, Express.js, React, Node.js, IndexDB, Mongoose, Framer-Motion",
+      tagline: "A Private Golf Tournament Website",
+      pic: golfbuddy,
+    },
     {
       name: "WatchSocial",
       deploy: "https://watchsocial.herokuapp.com",
