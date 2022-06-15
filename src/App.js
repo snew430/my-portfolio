@@ -22,7 +22,7 @@ function App() {
   const [projects] = useState([
     {
       name: "whatsmyteetime",
-      deploy: "https://whatsmyteetime.herokuapp.com/",
+      deploy: "http://www.whatsmyteetime.com/",
       repo: "https://github.com/snew430/golfbuddy",
       technologies:
         "MongoDB, Express.js, React, Node.js, IndexDB, Mongoose, Framer-Motion",
