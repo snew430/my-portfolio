@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7614726f.css",
-    "main.js": "/static/js/main.b6d1674d.js",
+    "main.js": "/static/js/main.8e04652b.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/About.jpg": "/static/media/About.8df701d275ae5e8cb71b.jpg",
     "static/media/Road.jpg": "/static/media/Road.21bb2e565286e2b53951.jpg",
@@ -12,18 +12,17 @@
     "static/media/deweydecimal.png": "/static/media/deweydecimal.5c0b872eb3482e67ddfe.png",
     "static/media/WatchSocial.png": "/static/media/WatchSocial.031bf33dc9d59fbb44cc.png",
     "static/media/grafitti.ttf": "/static/media/grafitti.2e6bccb66c2303763d86.ttf",
-    "static/media/Portrait.jpeg": "/static/media/Portrait.6d5a52ece3299f6860bb.jpeg",
     "static/media/Coffee.jpg": "/static/media/Coffee.c658685ec3d8e2b80ac9.jpg",
     "static/media/Walking.jpg": "/static/media/Walking.8e6fdc29a4592d66167d.jpg",
+    "static/media/SeanNewResume.pdf": "/static/media/SeanNewResume.68a67b2927ebedeb2cd0.pdf",
     "static/media/DigiBlog.png": "/static/media/DigiBlog.17866ec215d0588814bb.png",
-    "static/media/SeanNewResume.pdf": "/static/media/SeanNewResume.d005707bca1aea13a2b2.pdf",
     "index.html": "/index.html",
     "main.7614726f.css.map": "/static/css/main.7614726f.css.map",
-    "main.b6d1674d.js.map": "/static/js/main.b6d1674d.js.map",
+    "main.8e04652b.js.map": "/static/js/main.8e04652b.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7614726f.css",
-    "static/js/main.b6d1674d.js"
+    "static/js/main.8e04652b.js"
   ]
 }
