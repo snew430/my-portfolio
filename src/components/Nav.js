@@ -39,7 +39,11 @@ function DrawerAppBar(props) {
       <List>
         {pages.map((item) => (
           <ListItem key={item.name} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }}>
+            <ListItemButton
+              component="a"
+              href={item.ref}
+              sx={{ textAlign: 'center' }}
+            >
               <ListItemText primary={item.name} />
             </ListItemButton>
           </ListItem>
